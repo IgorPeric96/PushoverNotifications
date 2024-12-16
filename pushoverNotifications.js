@@ -111,7 +111,7 @@ async function sendPushoverNotification(video, channelUrl) {
             url_title: "Watch Video",
             priority: 2, 
             sound: 'siren', 
-            retry: 60, 
+            retry: 30, 
             expire: 3600
         };
 
